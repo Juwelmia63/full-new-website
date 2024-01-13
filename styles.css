@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    padding: 50px 100px;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin: 30px;
+
+}
+
+
+.banner img {
+    width: 100%;
+}
+
+
+/* main section stylee */
+
+main {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+
+.quick-container {
+    display: flex;
+
+    margin-top: 50px;
+}
+
+.quick-image img {
+    width: 342px;
+    height: 342px;
+}
+
+.quick-container .quick-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+
+}
+
+
+/* feature section styling */
+
+
+.feature-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.card {
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-contant-image img {
+
+    /* width: 800px; */
+    height: 800px;
+}
+
+.feature-box {
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+}
+
+.feature-box-title{
+    color: white;
+}
+.feature-box-des{
+    color: white;
+}
